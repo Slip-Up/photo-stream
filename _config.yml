@@ -46,7 +46,7 @@ image_processing:
   thumbnail:
     source: photos/original
     destination: photos/thumbnail
-    resize_to_limit: [320, 320]
+    resize_to_limit: [4096, 4096]
     saver:
       strip: true
   tint:
